@@ -11,7 +11,6 @@ public class Main {
         task9();
         task10();
     }
-
     public static void task1(){
         System.out.println("Задача 1");
         for(int i =1; i < 11; i++){
@@ -37,7 +36,6 @@ public class Main {
             System.out.println("Итерация цикла " + i);
         }
     }
-
     public static void task5(){
         System.out.println("Задача 5");
         for (int i = 1904; i < 2096; i = i + 4){
@@ -45,21 +43,18 @@ public class Main {
 
         }
     }
-
     public static void task6(){
         System.out.println("Задача 6");
         for (int i = 7; i < 99; i = i + 7){
             System.out.println(i);
         }
     }
-
     public static void task7(){
         System.out.println("Задача 7");
         for (int i = 1; i < 513; i = i * 2){
             System.out.println(i);
         }
     }
-
     public static void task8(){
         System.out.println("Задача 8");
         int savings = 29000;
@@ -68,9 +63,7 @@ public class Main {
             total = total + savings;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
-
     }
-
     public static void task9(){
         System.out.println("Задача 9");
         int savings = 29000;
@@ -81,7 +74,6 @@ public class Main {
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
     }
-
     public static void task10(){
         System.out.println("Задача 10");
         int j = 0;
