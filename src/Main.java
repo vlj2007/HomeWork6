@@ -78,7 +78,7 @@ public class Main {
     public static void task10(){
         System.out.println("Задача 10");
         int j = 0;
-        for (int i = 1; i < 11; i++){
+        for (int i = 1; i <= 10; i++){
             j = i * 2;
             System.out.println(j);
         }
