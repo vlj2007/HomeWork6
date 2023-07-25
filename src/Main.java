@@ -20,7 +20,7 @@ public class Main {
 
     public static void task2(){
         System.out.println("Задача 2");
-        for(int i =10; i > 0; i--){
+        for(int i =10; i >= 1; i--){
             System.out.println("Итерация цикла " + i);
         }
     }
