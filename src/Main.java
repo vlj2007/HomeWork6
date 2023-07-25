@@ -51,7 +51,7 @@ public class Main {
     }
     public static void task7(){
         System.out.println("Задача 7");
-        for (int i = 1; i < 513; i = i * 2){
+        for (int i = 1; i <= 512; i = i * 2){
             System.out.println(i);
         }
     }
