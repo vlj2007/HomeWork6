@@ -68,9 +68,11 @@ public class Main {
         System.out.println("Задача 9");
         int savings = 29000;
         int total = 0;
-        int toTheBankAtPercent = 0;
+        double toTheBankAtPercent = 0;
+        double percent = 12;
+        double percentInMonth = percent/12;
         for (int i = 1; i <= 12; i++ ){
-            toTheBankAtPercent = total + total/12;
+            toTheBankAtPercent = total + total * percentInMonth/100;
             total = total + savings;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + toTheBankAtPercent + " рублей");
         }
